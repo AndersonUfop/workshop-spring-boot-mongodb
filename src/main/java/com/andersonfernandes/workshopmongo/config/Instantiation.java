@@ -10,7 +10,7 @@ import com.andersonfernandes.workshopmongo.repository.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner {
-
+	
 	@Autowired
 	private UserRepository userReposiroty;
 	
